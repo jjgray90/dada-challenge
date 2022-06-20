@@ -1,0 +1,51 @@
+nav {
+    height: 10vh;
+    padding: $spacing*5 $spacing*3 0 $spacing*3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 160px;
+    }
+}
+
+.button-primary {
+    border: 2px solid $color-primary;
+    border-radius: 5px;
+    padding: $spacing*1.5 $spacing*2;
+}
+
+.button-secondary {
+    border-radius: 5px;
+    padding: $spacing*1.5 $spacing*2;
+    color: $color-background;
+    background-color: $color-primary;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+footer {
+    background-color: $color-footer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 25vh;
+
+}
+
+@media only screen and (max-width: 350px) {
+    nav {
+        img {
+            width: 130px;
+        }
+    }
+
+    .button-primary {
+        padding: $spacing $spacing*1.5;
+    }
+
+}

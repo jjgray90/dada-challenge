@@ -1,0 +1,19 @@
+nav {
+  height: 10vh;
+  padding: 60px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid green;
+}
+nav img {
+  width: 200px;
+}
+
+a:any-link {
+  text-decoration: none;
+}
+
+.primary-button {
+  border: 1px solid;
+}
